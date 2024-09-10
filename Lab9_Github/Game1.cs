@@ -8,7 +8,7 @@ namespace Lab9_Github
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-       
+        float jirut;
 
         public Game1()
         {
@@ -23,7 +23,7 @@ namespace Lab9_Github
 
             base.Initialize();
         }
-        public void HeeHee() 
+        private void HeeHee() 
         {
             
         }
