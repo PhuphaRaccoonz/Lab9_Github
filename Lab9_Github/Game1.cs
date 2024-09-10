@@ -8,7 +8,10 @@ namespace Lab9_Github
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-        public void HeeHee(Game game) { }
+        public void HeeHee(Game game) 
+        {
+            int Hee = 0;
+        }
 
         public Game1()
         {
