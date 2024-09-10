@@ -23,10 +23,7 @@ namespace Lab9_Github
 
             base.Initialize();
         }
-        private void HeeHee() 
-        {
-            
-        }
+       
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
