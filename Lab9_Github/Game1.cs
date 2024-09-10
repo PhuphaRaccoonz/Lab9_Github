@@ -23,9 +23,9 @@ namespace Lab9_Github
 
             base.Initialize();
         }
-        public void HeeHee(Game game) 
+        public void HeeHee() 
         {
-            int Hee = 0;
+            
         }
         protected override void LoadContent()
         {
