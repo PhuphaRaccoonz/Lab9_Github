@@ -8,7 +8,11 @@ namespace Lab9_Github
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+
         int phupha;
+
+        float jirut;
+
 
         public void Nack()
         {
@@ -27,7 +31,7 @@ namespace Lab9_Github
 
             base.Initialize();
         }
-
+       
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
