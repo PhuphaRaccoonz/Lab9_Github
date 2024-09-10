@@ -8,10 +8,7 @@ namespace Lab9_Github
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-        public void HeeHee(Game game) 
-        {
-            int Hee = 0;
-        }
+       
 
         public Game1()
         {
@@ -26,7 +23,10 @@ namespace Lab9_Github
 
             base.Initialize();
         }
-
+        public void HeeHee(Game game) 
+        {
+            int Hee = 0;
+        }
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
