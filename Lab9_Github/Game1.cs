@@ -10,6 +10,10 @@ namespace Lab9_Github
         private SpriteBatch _spriteBatch;
         int phupha;
 
+        public void Nack()
+        {
+
+        }
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
