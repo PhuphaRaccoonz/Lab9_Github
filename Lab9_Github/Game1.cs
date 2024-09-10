@@ -48,5 +48,9 @@ namespace Lab9_Github
 
             base.Draw(gameTime);
         }
+        public void tonkla()
+        {
+
+        }
     }
 }
