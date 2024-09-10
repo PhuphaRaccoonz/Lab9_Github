@@ -41,6 +41,11 @@ namespace Lab9_Github
             base.Update(gameTime);
         }
 
+        public void PoonPoonMethod()
+        {
+
+        }
+
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
